@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import Thing
+from .models import CookieStand
 
 
 class ThingSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Thing
+        model = CookieStand
         fields = "__all__"
